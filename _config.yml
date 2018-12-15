@@ -1,8 +1,8 @@
 # Site settings
-title: BY Blog
+title: Jimmy Blog
 SEOTitle: Ruoyu Peng's Blog | Jimmypry Blog
 header-img: img/post-bg-desk.jpg
-email: jimmypry@gmail.com
+email: jimmypry@ucla.edu
 description: "Every failure is leading towards success."
 keyword: "Jimmypry, Jimmypry Blog, 彭若喻的博客, ruoyu peng, 彭若喻, iOS, Apple, iPhone"
 url: "http://jimmypry.github.io"          # your host, for absolute URL
@@ -99,12 +99,6 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
         title: "Apple",
         href: "https://apple.com"
     },{
