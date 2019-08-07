@@ -99,10 +99,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Apple",
-        href: "https://apple.com"
+        title: "Visa",
+        href: "https://usa.visa.com/"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "Open VisaNet Developer",
+        href: "https://usa.visa.com/about-visa/visanet.html"
     }
 ]
