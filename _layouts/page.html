@@ -194,7 +194,10 @@ layout: default
                         alert("success1")
                         {{site.bilibili_username}}
                         {{site.bilibili_id}}
-                        {{{{site.email}}}}
+                        {{site.email}}
+                        {% if site.email %}
+                            <p>{{site.email}}</p>
+                        {% endif %}
 <!--                         {% if site.bilibili_id %}
                             <p>
                                 {{site.bilibili_username}}
