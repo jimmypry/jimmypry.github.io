@@ -185,16 +185,15 @@ layout: default
                             {% endif %}
                             
                         </ul>
-
                         {% if site.email %}
                             <p>✉️ {{site.email}}</p>
                         {% endif %}
                         {% if site.bilibili_id %}
-                        <p>
-                            <a target="_blank" href="http://space.bilibili.com/{{ site.bilibili_id }}">
-                                site.bilibili_username
-                            </a>
-                        </p>
+                            <p>
+                                <a target="_blank" href="http://space.bilibili.com/{{ site.bilibili_id }}">
+                                    {{site.bilibili_username}}
+                                </a>
+                            </p>
                         {% endif %}  
                     </div>
                 </section>
