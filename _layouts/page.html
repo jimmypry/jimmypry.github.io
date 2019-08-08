@@ -188,25 +188,13 @@ layout: default
                         {% if site.email %}
                             <p>✉️ {{site.email}}</p>
                         {% endif %}
-                        {% if site.bilibili_id %}
-                            <p>✉️ {{site.bilibili_username}}</p>
-                        {% endif %}
-                        alert("success1")
-                        {{site.bilibili_username}}
-                        {{site.bilibili_id}}
-                        {{site.email}}
-                        {% if site.email %}
-                            <p>{{site.email}}</p>
-                        {% endif %}
-<!--                         {% if site.bilibili_id %}
+                        {% if site.bilibili_username %}
                             <p>
-                                {{site.bilibili_username}}
-                                <a href="http://space.bilibili.com/{{ site.bilibili_id }}">链接文本</a>
-                                <a href="http://space.bilibili.com/{{ site.bilibili_id }}">
-                                    {{site.bilibili_username}}
+                                <a href="http://space.bilibili.com/437661777">
+                                    BiliBili: {{site.bilibili_username}}
                                 </a>
                             </p>
-                        {% endif %}  --> 
+                        {% endif %}  
                     </div>
                 </section>
                 <!-- Friends Blog -->
